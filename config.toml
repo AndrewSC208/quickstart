@@ -1,0 +1,29 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "hugo-hero-theme"
+
+
+[[menu.main]]
+  name = "Services"
+  weight = 1
+  identifier = "services"
+  url = "/services/"
+
+[[menu.main]]
+  name = "Work"
+  weight = 1
+  identifier = "work"
+  url = "/work/"
+
+[[menu.main]]
+  name = "About"
+  weight = 1
+  identifier = "about"
+  url = "/about/"
+
+[[menu.main]]
+  name = "Contact"
+  weight = 1
+  identifier = "contact"
+  url = "/contact/"
